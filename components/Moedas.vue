@@ -68,7 +68,7 @@ export default{
                     .catch(error =>{ this.verificar_erro= error
                     
                     this.moeda.splice(-1,1),
-                    alert("Esta moeda não foi encontrada!")}
+                    alert("Esta cryptomoeda não foi encontrada!")}
                             )
                    }
                 },
